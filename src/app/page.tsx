@@ -35,3 +35,4 @@ export default function HomePage() {
     </motion.div>
   );
 }
+
