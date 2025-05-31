@@ -35,7 +35,7 @@ export default function AboutPage() {
 
           <p className="text-lg text-gray-300 leading-relaxed">
             Hi! I am an active university student currently learning and exploring web development, especially front-end using React and Next.js.
-            I'm passionate about clean UI/UX design and currently focused on building my portfolio while improving my technical skills.
+           I&apos;m passionate about clean UI/UX design and currently focused on building my portfolio while improving my technical skills.
           </p>
 
           <div className="mt-8">
