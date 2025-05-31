@@ -34,55 +34,28 @@ export default function AboutPage() {
           <h1 className="text-5xl font-extrabold mb-6 tracking-tight">About Me</h1>
 
           <p className="text-lg text-gray-300 leading-relaxed">
-            Halo! Saya adalah mahasiswa aktif yang sedang belajar dan memperdalam kemampuan di bidang pengembangan web,
-            khususnya di front-end development menggunakan React dan Next.js. Saya tertarik dengan UI/UX design,
-            dan saat ini sedang membangun portfolio sambil terus belajar teknologi baru.
+            Hi! I am an active university student currently learning and exploring web development, especially front-end using React and Next.js.
+            I'm passionate about clean UI/UX design and currently focused on building my portfolio while improving my technical skills.
           </p>
 
           <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-3">Skill yang Sedang Dipelajari</h2>
+            <h2 className="text-2xl font-semibold mb-3">Currently Learning</h2>
             <ul className="list-disc list-inside text-gray-300 space-y-1">
-              <li>HTML, CSS, dan JavaScript</li>
-              <li>React.js dan Next.js</li>
+              <li>HTML, CSS, and JavaScript</li>
+              <li>React.js and Next.js</li>
               <li>Tailwind CSS</li>
               <li>Git &amp; GitHub</li>
             </ul>
           </div>
 
           <div className="mt-8">
-            <h2 className="text-2xl font-semibold mb-3">Tujuan Saat Ini</h2>
+            <h2 className="text-2xl font-semibold mb-3">Current Goal</h2>
             <p className="text-gray-300">
-              Fokus membangun beberapa project kecil untuk menambah pengalaman dan membangun portfolio yang bisa saya gunakan
-              saat melamar magang atau pekerjaan pertama di bidang front-end development
+              My current goal is to build small real-world projects and gradually assemble a portfolio that will help me apply for internships or my first front-end development job.
             </p>
           </div>
         </motion.div>
       </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.6, duration: 0.5 }}
-        className="mt-20 border-t border-gray-700 pt-10 max-w-4xl mx-auto"
-      >
-        <h2 className="text-3xl font-bold mb-6">English Version</h2>
-        <p className="text-gray-300 mb-4">
-          Hi! I am an active university student currently learning and exploring web development, especially front-end using React and Next.js.
-          I&apos;m passionate about clean UI/UX design and currently focused on building my portfolio while improving my technical skills.
-        </p>
-        <p className="text-gray-300 mb-4">
-          I&apos;m currently learning the following:
-        </p>
-        <ul className="list-disc list-inside text-gray-300 space-y-1 mb-4">
-          <li>HTML, CSS, and JavaScript</li>
-          <li>React.js and Next.js</li>
-          <li>Tailwind CSS</li>
-          <li>Git &amp; GitHub</li>
-        </ul>
-        <p className="text-gray-300">
-          My current goal is to build small real-world projects and gradually assemble a portfolio that will help me apply for internships or my first front-end development job.
-        </p>
-      </motion.div>
     </motion.div>
   );
 }
